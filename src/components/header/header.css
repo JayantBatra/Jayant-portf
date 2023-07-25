@@ -33,6 +33,10 @@ header {
   bottom: 3rem;
 }
 
+.header__socials a {
+  font-size: 24px; /* You can adjust the font-size to your desired size */
+}
+
 .header__socials::after {
   content: "";
   width: 1px;
@@ -66,7 +70,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300px;
-  font-size: 0.9rem;
+  font-size: 20px;
 }
 
 /* ============= MEDIA QUERIES (Medium Devices) ================== */
